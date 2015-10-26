@@ -6,7 +6,7 @@ def suma (a, b):
 def product(a,b):
 
 
-	if (a != type ('int')) or (b != type ('int')):
+	if (type(a) != int) or (type(b) != int):
 		 result =  "Input values should be an integer"
 	else:
 		result = a*b
@@ -53,8 +53,4 @@ res = suma(tuple1,tuple2)
 print res
 # ejercicio propuesto1: realizar una funcion que multiple dos numeros
 # ejercicio propuesto 2: realizar una funcion que reciba una cadena y devulva la longitud de la cadena
-
-
-
-
 

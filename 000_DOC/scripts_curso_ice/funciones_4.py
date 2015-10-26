@@ -12,6 +12,11 @@ print h
 
 # ejercicio propuesto, crear una funcion lambda que calcule el cuadrado de un numero
 
+f = lambda x: x*x
+
+result = f(2.5)
+print result
+
 # podemos hacer funciones lambda con dos variables
 y = lambda x, y: x + y
 

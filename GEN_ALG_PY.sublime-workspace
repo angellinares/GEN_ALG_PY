@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"float",
+				"floatVar1	statement"
+			],
+			[
 				"cl",
 				"class"
 			],
@@ -395,10 +399,37 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "floatVar1 = 5.5\nintVar2 = 4\nlstVar3 = [1,2,3]\n\nprint \"variable1: %f\" % floatVar1\nprint \"variable2: %d\" %	intVar2 \nprint \"variable3: %s\" % lstVar3\n\nprint \"///////////////////////////////////////////////////////////////////////\"\n\nstrCadena = \"Hola mundo\"\n\nprint \"Longitud de cadena: %d\" %len(strCadena)\nprint \"Longitud de lista: %d\"	%len(lstVar3)\n\nprint \"Trozo de lista: %s\"	%lstVar3[1:]\n\nprint \"Trozos de cadena: %s\" %strCadena.split(\" \")\nprint \"'Oes' en la cadena: %s\" %strCadena.find(\"o\")",
+			"file": "151026_test",
+			"file_size": 507,
+			"file_write_time": 130903503233306079,
+			"settings":
+			{
+				"buffer_size": 489,
+				"line_ending": "Windows"
+			}
+		}
 	],
-	"build_system": "Packages/Processing/Build Systems/Processing.sublime-build",
+	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
 	],
 	"build_varint": "",
 	"command_palette":
@@ -480,10 +511,6 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/F/003_CODE/Git/Processing3/00_SKT/Bush_01"
-	],
 	"file_history":
 	[
 		"/F/003_CODE/Git/Processing3/00_SKT/Bush_01/Bush_01.pde",
@@ -658,8 +685,141 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "151026_test",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 489,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								450,
+								450
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -696,13 +856,13 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 272.0
+		"height": 159.0
 	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
 	"project": "GEN_ALG_PY.sublime-project",
 	"replace":
 	{
