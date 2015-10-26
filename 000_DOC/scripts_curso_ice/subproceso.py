@@ -1,0 +1,9 @@
+import subprocess
+
+#p = subprocess.Popen("nautilus", executable= "/bin/bash", shell=True, stdout = subprocess.PIPE, stderr = subprocess.STDOUT)
+
+p = subprocess.Popen("ls", executable= "/bin/bash", shell=True, stdout = subprocess.PIPE, stderr = subprocess.STDOUT)
+
+result = p.communicate()
+
+print result
