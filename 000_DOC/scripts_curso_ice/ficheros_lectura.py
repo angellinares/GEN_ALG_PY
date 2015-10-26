@@ -7,7 +7,10 @@ for line in fichero:
 
 # Vamos a complicar un poco mas el asunto
 # comentar primero el for de arriba
+print "///////////////////////////////////////////////////////////////////////////"
 
+
+# Sustituye cada línea por una palabra aleatoria de dicha línea
 for line in fichero:
 	palabras = line.split(" ") # separamos las lineas en palabras
 	for palabra in palabras:
