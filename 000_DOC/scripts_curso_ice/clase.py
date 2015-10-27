@@ -23,8 +23,8 @@ class Persona(object):
 		print "incluyo item %s" %item	
 
 # generamos un nuevo objeto y lo inicializamos con ciertos valores 
-timeit.timeit(Daniel = Persona(1.78, 74, 31))
 
+Daniel = Persona(1.78, 74, 31)
 print "Altura %f" % Daniel.altura
 print "Altura %.2f" % Daniel.altura # variante para imprimir solo dos digitos
 
