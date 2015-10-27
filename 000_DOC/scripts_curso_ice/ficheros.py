@@ -14,4 +14,3 @@ for line in fichero:
 		print palabra # imprimimos palabra a palabra
 
 
-print "hola mundo"

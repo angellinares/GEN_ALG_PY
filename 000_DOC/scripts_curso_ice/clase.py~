@@ -9,13 +9,17 @@ class Persona(object):
 		self.edad = edad
 		self.profesion = "" # esta la inicializamos nosotros
 		self.lista_tareas = []
+		self.__privado = 1 # este atributo es privado no podemos acceder a el desde fuera
 	
-	def suma_tarea (self, tarea):
+	def suma_tarea (self, tarea): # incluimos una nueva tarea
 		self.lista_tareas.append(tarea)
+		self._metodo_privado(tarea)
 
-	def elimino_tarea(self, tarea):
+	def elimino_tarea(self, tarea): # eliminamos una nueva tarea
 		self.lista_tareas.remove(tarea)
 
+	def _metodo_privado(self, item): # para indicar que el metodo es privado
+		print "incluyo item %s" %item	
 
 # generamos un nuevo objeto y lo inicializamos con ciertos valores 
 Daniel = Persona(1.78, 74, 31)
@@ -42,5 +46,6 @@ print "Tareas pendientes %s" % Daniel.lista_tareas
 
 print Daniel.__doc__
 
-
+print Daniel.privado
+#Daniel.metodo_privado("holaa")
 

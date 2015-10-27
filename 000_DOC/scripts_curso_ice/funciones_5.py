@@ -12,6 +12,4 @@ print math.factorial(var2)
 # sumamos los elementos de un iterable
 lista1 = [1, 2.3, 3.4, 5]
 
-print sum(lista1)
-sum
 print math.fsum(lista1)
