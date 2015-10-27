@@ -4,6 +4,7 @@
 #
 #	Methods: average qualification, absent more than five classes.
 
+
 class Student(object):
 	"""Creates an student object with Age, Repeater counter, Email, Qualifications and Absent counter"""
 	def __init__(self, age, repeater, email):
@@ -40,7 +41,7 @@ class Student(object):
 		self.requestAverageQ()
 
 
-Pedro = Student(35,False,"Pedro@gmail.com")
+Pedro = Student(35,False,"pedro@gmail.com")
 Pedro.addAbsent(6)
 Pedro.addQualification([5,7.25,4.5])
 Pedro.addQualification([3,4.25])
